@@ -21,12 +21,12 @@ public class Knife4jConfiguration {
         //指定使用Swagger2规范
         Docket docket=new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
-                //描述字段支持Markdown语法
-                .description("# Knife4j RESTful APIs")
-                .termsOfServiceUrl("https://doc.chenlongji.com/")
-                .contact(new Contact("chenlongji", "", "clj_java@163.com"))
-                .version("1.0.0")
-                .build())
+                    //描述字段支持Markdown语法
+                    .description("# Knife4j RESTful APIs")
+                    .termsOfServiceUrl("https://doc.chenlongji.com/")
+                    .contact(new Contact("chenlongji", "", "clj_java@163.com"))
+                    .version("1.0.0")
+                    .build())
                 //分组名称
                 .groupName("用户服务")
                 .select()
